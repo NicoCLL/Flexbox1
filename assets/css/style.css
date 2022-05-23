@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+}
+
+.chats{
+    width: 20%;
+    background-color: #fff;
+}
+
+.boxchat{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logchat{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    
+}
+
+.logchat img {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
