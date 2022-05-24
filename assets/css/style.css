@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,500;8..144,700&display=swap');
+
+.html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+}
+
+.contactos{
+    width: 30%;
+    background-color: #fff;
+    height: 100vh;
+}   
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    background-color: #A491D2;
+    
+}
+
+.icono {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .icono i {
+    padding-left: 15px;
+  }
+
+.boxchatmaria{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: solid 1px gray;
+    justify-content: center;
+}
+
+.boxchatmaria img {
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.usermaria{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.maria{
+    align-items: center;
+}
+
+.icono{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.boxchat{
+    display: flex;
+    max-height: 80px;
+    align-items: center;
+    border: solid 1px gray;
+    justify-content: space-around;
+    
+}
+
+.logchat{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.logchat img {
+    display: flex;
+    max-width: 300px;
+    padding-left: 430px
+}
+
+.boxchat img{
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+    
+}
+
+h1{
+    font-family: "Open Sans", sans-serif;
+}
+
+h5{
+    font-family: sans-serif, "Roboto";
+    font-size: medium;
+}
+
+.p{
+    font-size: small;
+}
+
