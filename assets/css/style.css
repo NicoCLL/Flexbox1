@@ -8,7 +8,7 @@
 }
 
 .contactos{
-    width: 20%;
+    width: 30%;
     background-color: #fff;
     height: 100vh;
 }   
@@ -21,24 +21,55 @@
     
 }
 
+.icono {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .icono i {
+    padding-left: 15px;
+  }
+
+.boxchatmaria{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: solid 1px gray;
+    justify-content: center;
+}
+
+.boxchatmaria img {
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .usermaria{
     display: flex;
     justify-content: space-between;
 
 }
 
+.maria{
+    align-items: center;
+}
+
 .icono{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
 
 .boxchat{
     display: flex;
-    flex-direction: column;
+    max-height: 80px;
+    align-items: center;
     border: solid 1px gray;
     justify-content: space-around;
+    
 }
 
 .logchat{
@@ -47,20 +78,19 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    border: 1.5px solid black;
-    
 }
 
 .logchat img {
     display: flex;
     max-width: 300px;
-    padding-left: 455px
+    padding-left: 430px
 }
 
 .boxchat img{
-    border-radius: 150%;
+    border-radius: 60%;
     width: 50px;
     height: 50px;
+    
 }
 
 h1{
