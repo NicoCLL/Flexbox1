@@ -1,17 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,500;8..144,700&display=swap');
+
+.html, body {
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     display: flex;
 }
 
-.chats{
+.contactos{
     width: 20%;
     background-color: #fff;
     height: 100vh;
 }   
 
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    background-color: #A491D2;
+    
+}
+
+.usermaria{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icono{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
 .boxchat{
     display: flex;
     flex-direction: column;
     border: solid 1px gray;
+    justify-content: space-around;
 }
 
 .logchat{
@@ -26,9 +53,14 @@
 
 .logchat img {
     display: flex;
-    
-    width: 300px;
-    padding-left: 470px
+    max-width: 300px;
+    padding-left: 455px
+}
+
+.boxchat img{
+    border-radius: 150%;
+    width: 50px;
+    height: 50px;
 }
 
 h1{
@@ -37,4 +69,10 @@ h1{
 
 h5{
     font-family: sans-serif, "Roboto";
+    font-size: medium;
 }
+
+.p{
+    font-size: small;
+}
+
