@@ -5,12 +5,13 @@
 .chats{
     width: 20%;
     background-color: #fff;
-}
+    height: 100vh;
+}   
 
 .boxchat{
     display: flex;
     flex-direction: column;
-
+    border: solid 1px gray;
 }
 
 .logchat{
@@ -25,7 +26,15 @@
 
 .logchat img {
     display: flex;
-    justify-content: center;
+    
     width: 300px;
+    padding-left: 470px
 }
 
+h1{
+    font-family: "Open Sans", sans-serif;
+}
+
+h5{
+    font-family: sans-serif, "Roboto";
+}
